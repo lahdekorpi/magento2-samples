@@ -70,7 +70,7 @@ Payment Method Facade configuration:
 There should be at least one Value Handler with `default` key provided for ValueHandlerPool.
 
 ```xml
-!-- Value handlers infrastructure -->
+<!-- Value handlers infrastructure -->
 <virtualType name="SamplePaymentGatewayValueHandlerPool" type="Magento\Payment\Gateway\Config\ValueHandlerPool">
     <arguments>
         <argument name="handlers" xsi:type="array">
